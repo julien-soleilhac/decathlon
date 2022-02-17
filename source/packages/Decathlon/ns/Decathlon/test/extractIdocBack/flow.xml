@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">idoc</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/idoc;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;DELVRY01&gt;
+   &lt;IDOC&gt;
+      &lt;EDI_DC40&gt;
+         &lt;TABNAM&gt;EDI_DC40&lt;/TABNAM&gt;
+         &lt;MANDT&gt;400&lt;/MANDT&gt;
+         &lt;DOCNUM&gt;0000010858282692&lt;/DOCNUM&gt;
+         &lt;DOCREL&gt;750&lt;/DOCREL&gt;
+         &lt;STATUS&gt;53&lt;/STATUS&gt;
+         &lt;DIRECT&gt;2&lt;/DIRECT&gt;
+         &lt;OUTMOD /&gt;
+         &lt;IDOCTYP&gt;DELVRY01&lt;/IDOCTYP&gt;
+         &lt;CIMTYP&gt;ZDELVRY01DECAT&lt;/CIMTYP&gt;
+         &lt;MESTYP&gt;WHSCON&lt;/MESTYP&gt;
+         &lt;MESCOD&gt;C06&lt;/MESCOD&gt;
+         &lt;SNDPOR&gt;CREMAS&lt;/SNDPOR&gt;
+         &lt;SNDPRT&gt;LS&lt;/SNDPRT&gt;
+         &lt;SNDPRN&gt;NICE&lt;/SNDPRN&gt;
+         &lt;RCVPOR&gt;SAPQT1&lt;/RCVPOR&gt;
+         &lt;RCVPRT&gt;XX&lt;/RCVPRT&gt;
+         &lt;RCVPFC&gt;XX&lt;/RCVPFC&gt;
+         &lt;RCVPRN&gt;XXXXXXXXXX&lt;/RCVPRN&gt;
+         &lt;CREDAT&gt;20220201&lt;/CREDAT&gt;
+         &lt;CRETIM&gt;110611&lt;/CRETIM&gt;
+         &lt;REFGRP&gt;3092888860&lt;/REFGRP&gt;
+         &lt;REFMES&gt;4795621702W059&lt;/REFMES&gt;
+         &lt;SERIAL&gt;03608439356254&lt;/SERIAL&gt;
+      &lt;/EDI_DC40&gt;
+      &lt;E1EDL20&gt;
+         &lt;VBELN&gt;3092888860&lt;/VBELN&gt;
+         &lt;ROUTE&gt;088076&lt;/ROUTE&gt;
+         &lt;TRAID&gt;TEST_AA_59&lt;/TRAID&gt;
+         &lt;XABLN&gt;4402001536&lt;/XABLN&gt;
+         &lt;LIFEX&gt;3092888860 010222 105951 4402001536&lt;/LIFEX&gt;
+         &lt;E1EDL18&gt;
+            &lt;QUALF&gt;PIC&lt;/QUALF&gt;
+         &lt;/E1EDL18&gt;
+         &lt;E1EDL18&gt;
+            &lt;QUALF&gt;PGI&lt;/QUALF&gt;
+         &lt;/E1EDL18&gt;
+         &lt;E1EDT13&gt;
+            &lt;QUALF&gt;006&lt;/QUALF&gt;
+            &lt;ISDD&gt;20220201&lt;/ISDD&gt;
+         &lt;/E1EDT13&gt;
+         &lt;E1EDL24&gt;
+            &lt;POSNR&gt;000010&lt;/POSNR&gt;
+            &lt;MATNR&gt;05608439356254&lt;/MATNR&gt;
+            &lt;WERKS&gt;1002&lt;/WERKS&gt;
+            &lt;LGORT&gt;NORM&lt;/LGORT&gt;
+            &lt;KDMAT&gt;000010&lt;/KDMAT&gt;
+            &lt;LFIMG&gt;6&lt;/LFIMG&gt;
+            &lt;VRKME&gt;PCE&lt;/VRKME&gt;
+            &lt;EAN11&gt;05608439356254&lt;/EAN11&gt;
+            &lt;VFDAT&gt;00000000&lt;/VFDAT&gt;
+         &lt;/E1EDL24&gt;
+      &lt;/E1EDL20&gt;
+      &lt;EDI_DS40&gt;
+         &lt;MANDT&gt;400&lt;/MANDT&gt;
+         &lt;DOCNUM&gt;0000010858282692&lt;/DOCNUM&gt;
+         &lt;LOGDAT&gt;20220201&lt;/LOGDAT&gt;
+         &lt;LOGTIM&gt;110611&lt;/LOGTIM&gt;
+         &lt;STATUS&gt;50&lt;/STATUS&gt;
+         &lt;STAMNO&gt;000&lt;/STAMNO&gt;
+         &lt;UNAME&gt;MJUGE50&lt;/UNAME&gt;
+         &lt;SEGNUM&gt;000000&lt;/SEGNUM&gt;
+      &lt;/EDI_DS40&gt;
+      &lt;EDI_DS40&gt;
+         &lt;MANDT&gt;400&lt;/MANDT&gt;
+         &lt;DOCNUM&gt;0000010858282692&lt;/DOCNUM&gt;
+         &lt;LOGDAT&gt;20220201&lt;/LOGDAT&gt;
+         &lt;LOGTIM&gt;110611&lt;/LOGTIM&gt;
+         &lt;STATUS&gt;64&lt;/STATUS&gt;
+         &lt;STAMQU&gt;SAP&lt;/STAMQU&gt;
+         &lt;STAMID&gt;B1&lt;/STAMID&gt;
+         &lt;STAMNO&gt;005&lt;/STAMNO&gt;
+         &lt;STATYP&gt;S&lt;/STATYP&gt;
+         &lt;STAPA2&gt;No filters&lt;/STAPA2&gt;
+         &lt;STAPA3&gt;No conversion&lt;/STAPA3&gt;
+         &lt;STAPA4&gt;No version change&lt;/STAPA4&gt;
+         &lt;STATXT&gt;,  ,  .&lt;/STATXT&gt;
+         &lt;UNAME&gt;MJUGE50&lt;/UNAME&gt;
+         &lt;REPID&gt;SAPLEDIR&lt;/REPID&gt;
+         &lt;ROUTID&gt;IDOC_STATUS_64OR65_SET&lt;/ROUTID&gt;
+         &lt;SEGNUM&gt;000000&lt;/SEGNUM&gt;
+      &lt;/EDI_DS40&gt;
+      &lt;EDI_DS40&gt;
+         &lt;MANDT&gt;400&lt;/MANDT&gt;
+         &lt;DOCNUM&gt;0000010858282692&lt;/DOCNUM&gt;
+         &lt;LOGDAT&gt;20220201&lt;/LOGDAT&gt;
+         &lt;LOGTIM&gt;110703&lt;/LOGTIM&gt;
+         &lt;STATUS&gt;62&lt;/STATUS&gt;
+         &lt;STAMQU&gt;SAP&lt;/STAMQU&gt;
+         &lt;STAMID&gt;B1&lt;/STAMID&gt;
+         &lt;STAMNO&gt;042&lt;/STAMNO&gt;
+         &lt;STATYP&gt;I&lt;/STATYP&gt;
+         &lt;STATXT&gt;Direct call started&lt;/STATXT&gt;
+         &lt;UNAME&gt;RT_WHSCON&lt;/UNAME&gt;
+         &lt;REPID&gt;SAPLBD20&lt;/REPID&gt;
+         &lt;SEGNUM&gt;000000&lt;/SEGNUM&gt;
+      &lt;/EDI_DS40&gt;
+      &lt;EDI_DS40&gt;
+         &lt;MANDT&gt;400&lt;/MANDT&gt;
+         &lt;DOCNUM&gt;0000010858282692&lt;/DOCNUM&gt;
+         &lt;LOGDAT&gt;20220201&lt;/LOGDAT&gt;
+         &lt;LOGTIM&gt;110704&lt;/LOGTIM&gt;
+         &lt;STATUS&gt;53&lt;/STATUS&gt;
+         &lt;STAMQU&gt;SAP&lt;/STAMQU&gt;
+         &lt;STAMID&gt;VL&lt;/STAMID&gt;
+         &lt;STAMNO&gt;242&lt;/STAMNO&gt;
+         &lt;STATYP&gt;S&lt;/STATYP&gt;
+         &lt;STAPA1&gt;3092888860&lt;/STAPA1&gt;
+         &lt;STATXT&gt;Delivery   changed&lt;/STATXT&gt;
+         &lt;UNAME&gt;RT_WHSCON&lt;/UNAME&gt;
+         &lt;SEGNUM&gt;000000&lt;/SEGNUM&gt;
+      &lt;/EDI_DS40&gt;
+   &lt;/IDOC&gt;
+&lt;/DELVRY01&gt;</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">idoc</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<INVOKE TIMEOUT="" SERVICE="pub.xml:xmlStringToXMLNode" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">xmlStringToXMLNodeInput</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">xmldata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">$filedata</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">$filestream</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">encoding</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">expandDTD</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>false</value>
+          <value>true</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isXML</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>false</value>
+          <value>true</value>
+          <value>autoDetect</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">expandGeneralEntities</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>true</value>
+          <value>false</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">validateXML</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>false</value>
+          <value>true</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">idoc</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/idoc;1;0" TO="/xmldata;1;0">
+</MAPCOPY>
+</MAP>
+</INVOKE>
+
+<INVOKE TIMEOUT="" SERVICE="pub.xml:xmlNodeToDocument" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+</FLOW>

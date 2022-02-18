@@ -32,5 +32,15 @@
       <value name="publisher">Software AG</value>
       <value name="patch_nums"></value>
     </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">FlatFile_10.7_Fix7</value>
+      <value name="version">10.7.0.0.28</value>
+      <value name="build">28</value>
+      <value name="description">Flat File processing support Fix 7</value>
+      <value name="time">2022-02-11</value>
+      <value name="jvm_version">1.8</value>
+      <value name="publisher">Software AG</value>
+      <value name="patch_nums"></value>
+    </record>
   </array>
 </Values>

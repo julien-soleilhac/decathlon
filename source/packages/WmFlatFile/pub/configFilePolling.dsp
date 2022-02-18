@@ -410,13 +410,15 @@
 			}
 		}
 		
-		//Alias 
+		//Alias
+		if(document.properties.operation.value == "add") {		
 		var portAlias = document.properties.portAlias.value;
 		if (( portAlias == null ) || ( portAlias == "" ) || isblank(portAlias)) {
 			alert("Alias required");
 			document.properties.portAlias.focus();
 			return (false);
         }
+		}
 
 	    document.properties.listenerKey.value=listenerKey;
         document.properties.submit();

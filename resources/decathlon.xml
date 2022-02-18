@@ -1,0 +1,16 @@
+<ehcache     
+    name="decathlon">    
+    <diskStore         
+        path="./cacheStore/decathlon"/>    
+    <defaultCache         
+        maxEntriesLocalHeap="0"/>    
+    <cache         
+        name="decathlon"         
+        eternal="true"         
+        maxEntriesLocalHeap="100"         
+        overflowToOffHeap="false"         
+        cacheLoaderTimeoutMillis="30000">        
+        <persistence             
+            strategy="none"/>    
+    </cache>
+</ehcache>

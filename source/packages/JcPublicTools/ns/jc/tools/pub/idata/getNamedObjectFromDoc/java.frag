@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getNamedObjectFromDoc</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ci8vIHBpcGVsaW5lIGluCgpJRGF0YUN1cnNvciBwaXBlbGluZUN1cnNvciA9IHBpcGVsaW5lLmdl
+dEN1cnNvcigpOwpTdHJpbmcga2V5ID0gSURhdGFVdGlsLmdldFN0cmluZyhwaXBlbGluZUN1cnNv
+ciwgImtleSIpOwpJRGF0YSBkb2MgPSBJRGF0YVV0aWwuZ2V0SURhdGEoIHBpcGVsaW5lQ3Vyc29y
+LCAiZG9jIik7CgovLyBwcm9jZXNzCgkKaWYgKCBkb2MgIT0gbnVsbCkKewoJSURhdGFDdXJzb3Ig
+YyA9IGRvYy5nZXRDdXJzb3IoKTsKCUlEYXRhIGZuZCA9IElEYXRhVXRpbC5nZXRJRGF0YShjLCBr
+ZXkpOwoJYy5kZXN0cm95KCk7CgkKCWlmIChmbmQgIT0gbnVsbCkKCQlkb2MgPSBmbmQ7Cn0KCi8v
+IHBpcGVsaW5lIG91dApJRGF0YVV0aWwucHV0KHBpcGVsaW5lQ3Vyc29yLCAiZG9jIiwgZG9jKTsK
+cGlwZWxpbmVDdXJzb3IuZGVzdHJveSgpOw==</value>
+</Values>

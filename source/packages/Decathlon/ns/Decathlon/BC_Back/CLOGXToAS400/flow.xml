@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+
+  <!-- nodes -->
+
+<MAP MODE="STANDALONE">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/LIGNE_NUMERO_REF_SAP;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMXQTY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/LETTRE_VOITURE;1;0" TO="/SKHYCPP;4;0;Decathlon.doc:SKHYCPP/HYLMTY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/NUMERO_EXPEDITION_SKHYCPP;1;0" TO="/SKHYCPP;4;0;Decathlon.doc:SKHYCPP/HYLJTY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/NUMERO_EXPEDITION_SLKMCPP;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMLJTY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/NUMERO_EXPEDITION_SOAACPP;1;0" TO="/SOAACPP;4;0;Decathlon.doc:SOAACPP/AALJTY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/DATE_EMISSION_FLUX_SKHYCPP;1;0" TO="/SKHYCPP;4;0;Decathlon.doc:SKHYCPP/HYEJDS;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/DATE_EXPEDITION;1;0" TO="/SKHYCPP;4;0;Decathlon.doc:SKHYCPP/HYC9DS;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/DATE_LIVRAISON_PREVU;1;0" TO="/SKHYCPP;4;0;Decathlon.doc:SKHYCPP/HYEKDS;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/DATE_EMISSION_FLUX_SLKMCPP;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMEJDS;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/DATE_MOUVEMENT;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMFJDS;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/DATE_EMISSION_FLUX_SOAACPP;1;0" TO="/SOAACPP;4;0;Decathlon.doc:SOAACPP/AAEJDS;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/LIGNE_COMMANDE;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMZMNY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/LIG_EAN_ARTICLE;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMZGNY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/LIGNE_QUANTITE;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMZJNY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/QUANTITE;1;0" TO="/SOAACPP;4;0;Decathlon.doc:SOAACPP/AAK3NY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/LIG UNITE QTE;1;0" TO="/SLKMCPP;4;0;Decathlon.doc:SLKMCPP/KMXNTY;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/clogx;4;0;Decathlon.doc:clogx/UNITE_QANTITE;1;0" TO="/SOAACPP;4;0;Decathlon.doc:SOAACPP/AALZTY;1;0">
+</MAPCOPY>
+</MAP>
+</FLOW>

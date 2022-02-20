@@ -100,7 +100,7 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <value name="name">wmback</value>
+    <value name="name">wm</value>
     <number name="partitions" type="Integer">1</number>
     <number name="replicationFactor" type="Short">1</number>
   </record>

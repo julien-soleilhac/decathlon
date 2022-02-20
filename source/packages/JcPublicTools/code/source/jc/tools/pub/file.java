@@ -68,6 +68,7 @@ public final class file
 		// [o] field:0:required tgtPath
 		// pipeline in
 		
+		
 		IDataCursor pipelineCursor = pipeline.getCursor();
 		String srcDirectory = IDataUtil.getString( pipelineCursor, "srcDir");
 		String src = IDataUtil.getString( pipelineCursor, "srcName");
@@ -120,6 +121,7 @@ public final class file
 		IDataCursor c = pipeline.getCursor();
 		String fname = IDataUtil.getString(c, "name");
 		String force = IDataUtil.getString(c, "force");
+		
 		
 		File dir = new File(fname);
 		String success = "exists";

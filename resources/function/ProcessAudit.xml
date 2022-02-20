@@ -3,7 +3,7 @@
 <IDataXMLCoder version="1.0">
   <record javaclass="com.wm.app.jdbc.JDBCBasicData">
     <value name="alias">ProcessAudit</value>
-    <value name="connPoolAlias">WM1011</value>
+    <null name="connPoolAlias"/>
     <value name="autoCommit">false</value>
     <value name="cache">true</value>
     <number name="isolationLevel" type="java.lang.Integer">-1</number>

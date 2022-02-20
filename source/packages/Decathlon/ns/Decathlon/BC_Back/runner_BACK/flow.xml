@@ -8,6 +8,10 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
+<INVOKE TIMEOUT="" SERVICE="Decathlon.tools:initKafkaTopic" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+
 <INVOKE TIMEOUT="" SERVICE="pub.json:jsonStringToDocument" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 

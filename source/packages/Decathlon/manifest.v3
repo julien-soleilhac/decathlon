@@ -5,6 +5,7 @@
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="Decathlon.tools:initKafkaTopic"/>
   </record>
   <null name="shutdown_services"/>
   <null name="replication_services"/>

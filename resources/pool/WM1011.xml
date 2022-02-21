@@ -6,13 +6,13 @@
     <number name="minConns" type="java.lang.Integer">0</number>
     <number name="maxConns" type="java.lang.Integer">10</number>
     <number name="expireTime" type="java.lang.Integer">60000</number>
-    <value name="dbURL">jdbc:wm:sqlserver://10.146.1.86:1433;databaseName=WM1011</value>
+    <value name="dbURL">jdbc:wm:sqlserver://decathlon_db:1433;databaseName=WM1011</value>
     <value name="userid">WM1011</value>
     <value name="pswdHandle">wm.is.admin.jdbc.WM1011</value>
     <value name="driverAlias">DataDirect Connect JDBC SQL Server Driver</value>
     <value name="description">WM1011</value>
     <jboolean name="spyenabled">false</jboolean>
-    <value name="spyparms">SpyAttributes=(log=(file)logs/spy/WM1011.log;logTName=yes;timestamp=yes)</value>
+    <value name="spyparms">  </value>
     <jboolean name="snoopenabled">false</jboolean>
     <value name="snoopparms">ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/WM1011.log;ddtdbg.ProtocolTraceShowTime=true</value>
     <number name="poolThreshold" type="java.lang.Integer">0</number>
